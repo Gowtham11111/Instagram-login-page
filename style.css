@@ -1,0 +1,133 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: small;
+  font-style: normal;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 86vh;
+}
+.Instagram-logo {
+  height: 70px;
+  width: 180px;
+  position: relative;
+  left: 14%;
+  bottom: 17px;
+}
+.form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.Box-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 320px;
+  border: 1px solid rgba(255, 255, 255, 0.319);
+}
+.Box-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.319);
+  padding: 8px;
+}
+input {
+  color: white;
+  background-color: rgba(52, 48, 48, 0.54);
+  padding: 10px 80px 10px 10px;
+  border: 1px solid rgba(230, 217, 217, 0.405);
+  border-radius: 3px;
+  margin-top: 5px;
+  position: relative;
+  bottom: 10px;
+}
+.Button {
+  background-color: blueviolet;
+  color: rgba(255, 255, 255, 0.832);
+  border: none;
+  border-radius: 7px;
+  padding: 9px 107px 9px 107px;
+  cursor: pointer;
+  margin-top: 15px;
+  font-weight:600 ;
+}
+.Button:hover{
+  background-color: rgb(91, 38, 213);
+}
+a.login-with-facebook {
+  text-decoration: none;
+  color: rgb(181, 109, 249);
+  font-weight: 600;
+  position: relative;
+  left: 23%;
+  bottom: 2px;
+}
+a.login-with-facebook:hover{
+  color: rgb(176, 92, 255);
+}
+.forget-password {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 27%;
+  font-weight: 600;
+  top: 12px;
+}
+.forget-password:hover{
+   color: rgba(255, 255, 255, 0.811);
+}
+a.Signup {
+  text-decoration: none;
+  color: rgb(181, 109, 249);
+  margin-left: 3px;
+  font-weight: 600;
+}
+a.Signup:hover{
+  color: rgb(176, 92, 255);
+}
+.Main{
+    display: flex;
+    justify-content: center;
+}
+.Sub1{
+    width: 100px;
+    height: 20px;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.288);
+    margin-right: 10px;
+}
+.Sub2{
+    width: 100px;
+    border-bottom: solid 1px  rgba(255, 255, 255, 0.288);
+    height: 20px;
+    margin-left: px;
+  }
+.or{
+  margin-right: 10px;
+  margin-bottom:30px;
+  font-size: 10px;
+  margin-top: 15px;
+  color: rgba(255, 255, 255, 0.638);
+}
+footer a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.511);
+}
+li{
+  display: inline;
+  margin-left: 30px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  flex-wrap: wrap;
+}
